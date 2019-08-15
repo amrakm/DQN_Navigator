@@ -26,8 +26,9 @@ Four discrete actions are available, corresponding to:
 - `0` - walk forward 
 - `1` - walk backward
 - `2` - turn left
-- `3` - turn right
-The task is episodic, and in order to solve the environment, your agent must get an average score of +13 over 100 consecutive episodes.
+- `3` - turn right      
+        
+This is an episodic task, in order to solve the environment, the agent must get an average score of +13 over 100 consecutive episodes.
 
 
 
@@ -44,8 +45,9 @@ The task is episodic, and in order to solve the environment, your agent must get
 
     (_For AWS_) If you'd like to train the agent on AWS (and have not [enabled a virtual screen](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md)), then please use [this link](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux_NoVis.zip) to obtain the environment.
 
-2. Install dependencies from `requirements.txt` file using:    
-```pip3 install -r requirements.txt
+2. Install dependencies from `requirements.txt` file using:     
+```
+pip3 install -r requirements.txt
 ```
 3. Place the file inside the main folder of this repository, and unzip (or decompress) the file. 
 
